@@ -14,6 +14,7 @@ public class LoginTest {
 	@BeforeSuite
 	public void setUp()
 	{
+		System.setProperty("webdriver.gecko.driver", "\\C:\\Users\\malsh\\Downloads\\geckodriver-v0.28.0-win64\\geckodriver.exe");
 		driver=new FirefoxDriver();
 		
 	}
