@@ -22,6 +22,7 @@ public class LoginTest {
 	public void doLogin()
 	{
 		driver.get("https://www.gmail.com");
+		/***/
 	}
 	@AfterSuite
 	public void tearDown()
